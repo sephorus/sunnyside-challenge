@@ -1,0 +1,31 @@
+.footer {
+    background-color: var(--footer);
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.footer__logo {
+    margin-bottom: 40px;
+}
+
+.footer__links {
+    margin-bottom: 88px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__link {
+    text-decoration: none;
+    font-family: "Barlow", sans-serif;
+    color: #458d7e;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer__socials {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

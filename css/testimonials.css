@@ -64,3 +64,21 @@
     font-weight: 600;
     color: #a7aaad;
 }
+
+@media only screen and (min-width: 800px) {
+    .testimonials-container {
+        flex-direction: row;
+        max-width: 1200px;
+        margin: 64px auto;
+    }
+    .testimonial {
+        margin: 0;
+    }
+    .testimonial:first-child {
+        margin-top: 0;
+    }
+
+    .testimonials-section {
+        padding: 120px 40px 160px 40px;
+    }
+}

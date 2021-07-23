@@ -37,173 +37,180 @@
             <img src="images/icon-arrow-down.svg" id="header__arrow" />
         </header>
 
-        <div class="grid">
-            <article class="grid-item grid-item__text" id="grid-item-1">
-                <h1 class="grid-item__title">Transform your brand</h1>
-                <p class="grid-item__desc">
-                    We are a full-service creative agency specializing in
-                    helping brands grow fast. Engage your clients through
-                    compelling visuals that do most of the marketing for you.
-                </p>
-                <a href="#" class="grid-item__button">Learn More</a>
-            </article>
+        <main>
+            <div class="grid">
+                <article class="grid-item grid-item__text" id="grid-item-1">
+                    <h1 class="grid-item__title">Transform your brand</h1>
+                    <p class="grid-item__desc">
+                        We are a full-service creative agency specializing in
+                        helping brands grow fast. Engage your clients through
+                        compelling visuals that do most of the marketing for
+                        you.
+                    </p>
+                    <a href="#" class="grid-item__button">Learn More</a>
+                </article>
 
-            <div class="grid-item" id="grid-item-2">
+                <div class="grid-item" id="grid-item-2">
+                    <picture>
+                        <source
+                            media="(min-width: 400px)"
+                            srcset="images/desktop/image-transform.jpg"
+                        />
+                        <img
+                            src="images/mobile/image-transform.jpg"
+                            alt="image associated with the transform your brand message"
+                        />
+                    </picture>
+                </div>
+
+                <div class="grid-item" id="grid-item-3">
+                    <picture>
+                        <source
+                            media="(min-width: 400px)"
+                            srcset="images/desktop/image-stand-out.jpg"
+                        />
+                        <img
+                            src="images/mobile/image-stand-out.jpg"
+                            alt="image associated with the stand out aside"
+                        />
+                    </picture>
+                </div>
+
+                <article class="grid-item grid-item__text" id="grid-item-4">
+                    <h1 class="grid-item__title">
+                        Stand out to the right audience
+                    </h1>
+                    <p class="grid-item__desc">
+                        Using a collaborative formula of designers, researchers,
+                        photographers, videographers, and copywriters, we’ll
+                        build and extend your brand in digital places.
+                    </p>
+                    <a href="#" class="grid-item__button">Learn More</a>
+                </article>
+
+                <div class="grid-item grid-item__photo" id="grid-item-5">
+                    <article class="grid-item__photo-info">
+                        <h2 class="grid-item__title">Graphic Design</h2>
+                        <p class="grid-item__desc">
+                            Great design makes you memorable. We deliver artwork
+                            that underscores your brand message and captures
+                            potential clients’ attention.
+                        </p>
+                    </article>
+                </div>
+
+                <div class="grid-item grid-item__photo" id="grid-item-6">
+                    <article class="grid-item__photo-info">
+                        <h2 class="grid-item__title">Photography</h2>
+                        <p class="grid-item__desc">
+                            Increase your credibility by getting the most
+                            stunning, high-quality photos that improve your
+                            business image.
+                        </p>
+                    </article>
+                </div>
+            </div>
+
+            <section class="testimonials-section">
+                <h2 id="testimonials-title">Client Testimonials</h2>
+                <div class="testimonials-container">
+                    <div class="testimonial">
+                        <img
+                            class="testimonial__image"
+                            src="images/image-emily.jpg"
+                            alt="image of Emily, our first testimonial"
+                        />
+                        <p class="testimonial__desc">
+                            We put our trust in Sunnyside and they delivered,
+                            making sure our needs were met and deadlines were
+                            always hit.
+                        </p>
+                        <h6 class="testimonial__name">Emily R.</h6>
+                        <h6 class="testimonial_title">Marketing Director</h6>
+                    </div>
+
+                    <div class="testimonial">
+                        <img
+                            class="testimonial__image"
+                            src="images/image-thomas.jpg"
+                            alt="image of Thomas, our second testimonial"
+                        />
+                        <p class="testimonial__desc">
+                            Sunnyside’s enthusiasm coupled with their keen
+                            interest in our brand’s success made it a satisfying
+                            and enjoyable experience.
+                        </p>
+                        <h6 class="testimonial__name">Thomas S.</h6>
+                        <h6 class="testimonial_title">
+                            Chief Operating Officer
+                        </h6>
+                    </div>
+                    <div class="testimonial">
+                        <img
+                            class="testimonial__image"
+                            src="images/image-jennie.jpg"
+                            alt="image of Jennie, our third testimonial"
+                        />
+                        <p class="testimonial__desc">
+                            Incredible end result! Our sales increased over 400%
+                            when we worked with Sunnyside. Highly recommended!
+                        </p>
+                        <h6 class="testimonial__name">Jennie F.</h6>
+                        <h6 class="testimonial_title">Business Owner</h6>
+                    </div>
+                </div>
+            </section>
+
+            <div class="gallery">
                 <picture>
                     <source
                         media="(min-width: 400px)"
-                        srcset="images/desktop/image-transform.jpg"
+                        srcset="images/desktop/image-gallery-milkbottles.jpg"
                     />
                     <img
-                        src="images/mobile/image-transform.jpg"
-                        alt="image associated with the transform your brand message"
+                        class="gallery__image"
+                        src="images/mobile/image-gallery-milkbottles.jpg"
+                        alt="gallery image of milk bottles"
                     />
                 </picture>
-            </div>
 
-            <div class="grid-item" id="grid-item-3">
                 <picture>
                     <source
                         media="(min-width: 400px)"
-                        srcset="images/desktop/image-stand-out.jpg"
+                        srcset="images/desktop/image-gallery-orange.jpg"
                     />
                     <img
-                        src="images/mobile/image-stand-out.jpg"
-                        alt="image associated with the stand out aside"
+                        class="gallery__image"
+                        src="images/mobile/image-gallery-orange.jpg"
+                        alt="gallery image of oranges"
+                    />
+                </picture>
+
+                <picture>
+                    <source
+                        media="(min-width: 400px)"
+                        srcset="images/desktop/image-gallery-cone.jpg"
+                    />
+                    <img
+                        class="gallery__image"
+                        src="images/mobile/image-gallery-cone.jpg"
+                        alt="gallery image of an ice cream cone"
+                    />
+                </picture>
+
+                <picture>
+                    <source
+                        media="(min-width: 400px)"
+                        srcset="images/desktop/image-gallery-sugarcubes.jpg"
+                    />
+                    <img
+                        class="gallery__image"
+                        src="images/mobile/image-gallery-sugar-cubes.jpg"
+                        alt="gallery image of sugar cubes"
                     />
                 </picture>
             </div>
-
-            <article class="grid-item grid-item__text" id="grid-item-4">
-                <h1 class="grid-item__title">
-                    Stand out to the right audience
-                </h1>
-                <p class="grid-item__desc">
-                    Using a collaborative formula of designers, researchers,
-                    photographers, videographers, and copywriters, we’ll build
-                    and extend your brand in digital places.
-                </p>
-                <a href="#" class="grid-item__button">Learn More</a>
-            </article>
-
-            <div class="grid-item grid-item__photo" id="grid-item-5">
-                <article class="grid-item__photo-info">
-                    <h2 class="grid-item__title">Graphic Design</h2>
-                    <p class="grid-item__desc">
-                        Great design makes you memorable. We deliver artwork
-                        that underscores your brand message and captures
-                        potential clients’ attention.
-                    </p>
-                </article>
-            </div>
-
-            <div class="grid-item grid-item__photo" id="grid-item-6">
-                <article class="grid-item__photo-info">
-                    <h2 class="grid-item__title">Photography</h2>
-                    <p class="grid-item__desc">
-                        Increase your credibility by getting the most stunning,
-                        high-quality photos that improve your business image.
-                    </p>
-                </article>
-            </div>
-        </div>
-
-        <section class="testimonials-section">
-            <h2 id="testimonials-title">Client Testimonials</h2>
-            <div class="testimonials-container">
-                <div class="testimonial">
-                    <img
-                        class="testimonial__image"
-                        src="images/image-emily.jpg"
-                        alt="image of Emily, our first testimonial"
-                    />
-                    <p class="testimonial__desc">
-                        We put our trust in Sunnyside and they delivered, making
-                        sure our needs were met and deadlines were always hit.
-                    </p>
-                    <h6 class="testimonial__name">Emily R.</h6>
-                    <h6 class="testimonial_title">Marketing Director</h6>
-                </div>
-
-                <div class="testimonial">
-                    <img
-                        class="testimonial__image"
-                        src="images/image-thomas.jpg"
-                        alt="image of Thomas, our second testimonial"
-                    />
-                    <p class="testimonial__desc">
-                        Sunnyside’s enthusiasm coupled with their keen interest
-                        in our brand’s success made it a satisfying and
-                        enjoyable experience.
-                    </p>
-                    <h6 class="testimonial__name">Thomas S.</h6>
-                    <h6 class="testimonial_title">Chief Operating Officer</h6>
-                </div>
-                <div class="testimonial">
-                    <img
-                        class="testimonial__image"
-                        src="images/image-jennie.jpg"
-                        alt="image of Jennie, our third testimonial"
-                    />
-                    <p class="testimonial__desc">
-                        Incredible end result! Our sales increased over 400%
-                        when we worked with Sunnyside. Highly recommended!
-                    </p>
-                    <h6 class="testimonial__name">Jennie F.</h6>
-                    <h6 class="testimonial_title">Business Owner</h6>
-                </div>
-            </div>
-        </section>
-
-        <div class="gallery">
-            <picture>
-                <source
-                    media="(min-width: 400px)"
-                    srcset="images/desktop/image-gallery-milkbottles.jpg"
-                />
-                <img
-                    class="gallery__image"
-                    src="images/mobile/image-gallery-milkbottles.jpg"
-                    alt="gallery image of milk bottles"
-                />
-            </picture>
-
-            <picture>
-                <source
-                    media="(min-width: 400px)"
-                    srcset="images/desktop/image-gallery-orange.jpg"
-                />
-                <img
-                    class="gallery__image"
-                    src="images/mobile/image-gallery-orange.jpg"
-                    alt="gallery image of oranges"
-                />
-            </picture>
-
-            <picture>
-                <source
-                    media="(min-width: 400px)"
-                    srcset="images/desktop/image-gallery-cone.jpg"
-                />
-                <img
-                    class="gallery__image"
-                    src="images/mobile/image-gallery-cone.jpg"
-                    alt="gallery image of an ice cream cone"
-                />
-            </picture>
-
-            <picture>
-                <source
-                    media="(min-width: 400px)"
-                    srcset="images/desktop/image-gallery-sugarcubes.jpg"
-                />
-                <img
-                    class="gallery__image"
-                    src="images/mobile/image-gallery-sugar-cubes.jpg"
-                    alt="gallery image of sugar cubes"
-                />
-            </picture>
-        </div>
+        </main>
 
         <footer class="footer">
             <svg

@@ -13,6 +13,9 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .footer__link {

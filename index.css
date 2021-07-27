@@ -3,6 +3,7 @@
 @import "./css/gallery.css";
 @import "./css/testimonials.css";
 @import "./css/menu.css";
+@import "./css/mobile.menu.css";
 
 * {
     box-sizing: border-box;

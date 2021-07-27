@@ -1,8 +1,9 @@
 #menu {
-    display: flex;
     height: auto;
     width: 100%;
     padding: 30px;
+    display: flex;
+    align-items: center;
 }
 
 #logo {
@@ -10,8 +11,8 @@
 }
 
 .menu__links {
-    display: flex;
     align-items: center;
+    display: none;
 }
 
 .menu__link {
@@ -40,10 +41,20 @@
     color: white;
 }
 
+.hamburger-menu {
+    position: relative;
+}
+
 @media only screen and (min-width: 800px) {
     #menu {
         padding: 60px;
     }
-    .menu_links {
+
+    .menu__links {
+        display: flex;
+    }
+
+    .hamburger-menu {
+        display: none;
     }
 }

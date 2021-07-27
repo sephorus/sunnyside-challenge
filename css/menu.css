@@ -1,0 +1,49 @@
+#menu {
+    display: flex;
+    height: auto;
+    width: 100%;
+    padding: 30px;
+}
+
+#logo {
+    margin-right: auto;
+}
+
+.menu__links {
+    display: flex;
+    align-items: center;
+}
+
+.menu__link {
+    margin-right: 50px;
+    font-weight: 600;
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+#contact {
+    height: 56px;
+    width: 140px;
+    color: #24303e;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 28px;
+}
+
+#contact:hover,
+#contact:focus {
+    background-color: #b6e1f6;
+    color: white;
+}
+
+@media only screen and (min-width: 800px) {
+    #menu {
+        padding: 60px;
+    }
+    .menu_links {
+    }
+}

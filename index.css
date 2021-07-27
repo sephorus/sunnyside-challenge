@@ -2,6 +2,7 @@
 @import "./css/footer.css";
 @import "./css/gallery.css";
 @import "./css/testimonials.css";
+@import "./css/menu.css";
 
 * {
     box-sizing: border-box;
@@ -22,17 +23,6 @@ body {
     background-size: cover;
     height: 100vh;
     width: 100%;
-}
-
-#menu {
-    display: flex;
-    height: auto;
-    width: 100%;
-    padding: 30px;
-}
-
-#logo {
-    margin-right: auto;
 }
 
 #header__title {
@@ -144,7 +134,19 @@ body {
     height: 6px;
     width: 100%;
     opacity: 0.5;
-    background-color: steelblue;
+}
+
+#grid-item-1 .grid-item__button::after {
+    background-color: var(--yellow);
+}
+
+#grid-item-4 .grid-item__button::after {
+    background-color: var(--soft-red);
+}
+
+.grid-item__button:hover::after,
+.grid-item__button:focus::after {
+    opacity: 1;
 }
 
 .grid-item__photo {

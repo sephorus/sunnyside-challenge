@@ -26,9 +26,24 @@
     font-weight: 600;
 }
 
+.footer__link:hover,
+.footer__link:focus {
+    color: white;
+}
+
 .footer__socials {
     width: 100%;
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+
+.footer__social:hover,
+.footer__social:focus {
+    cursor: pointer;
+}
+
+.footer__social:hover .footer__svgPath,
+.footer__social:focus .footer__svgPath {
+    fill: white;
 }
